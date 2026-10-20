@@ -76,12 +76,12 @@ Churned customers pay **more** than loyal ones, so revenue churn (30.5%) is high
 
 ## 8. Charts
 
-![Churn by contract](charts/01_churn_by_contract.png)
-![Retention curves](charts/02_retention_curves.png)
-![Cohort heatmap](charts/03_cohort_heatmap.png)
-![Early churn cliff](charts/04_early_churn_cliff.png)
-![Churn drivers](charts/05_churn_drivers.png)
-![Other segments](charts/06_other_segments.png)
+![Churn by contract](01_churn_by_contract.png)
+![Retention curves](02_retention_curves.png)
+![Cohort heatmap](03_cohort_heatmap.png)
+![Early churn cliff](04_early_churn_cliff.png)
+![Churn drivers](05_churn_drivers.png)
+![Other segments](06_other_segments.png)
 
 ## 9. Repository structure
 ```
@@ -89,7 +89,7 @@ FUTURE_DS_02/
 ├── README.md
 ├── 02_churn_analysis.ipynb      (full analysis: cleaning, cohorts, retention curves, model, charts)
 ├── FUTURE_DS_02_outputs.zip     (summary tables, at-risk customer list and charts)
-└── charts/                      (6 PNG charts used above)
+└── 01_…06_*.png                 (6 PNG charts used above)
 ```
 **To reproduce:** download the dataset from Kaggle, open the notebook in Google Colab, upload the zip, and run the cells in order.
 
